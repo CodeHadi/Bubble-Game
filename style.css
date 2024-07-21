@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(8, 80, 8, 0.831);
+}
+
+#panel {
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#ptop {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 30%;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(80, 195, 80, 0.977);
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.Bullble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(45, 207, 45, 0.87);
+    font-weight: 500;
+}
+.Bullble:hover{
+    cursor: pointer;
+    background-color: rgba(8, 80, 8, 0.831);
+}
